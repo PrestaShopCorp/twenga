@@ -36,6 +36,8 @@ class TwengaSmartLeads extends Module
      */
     protected $geozoneInfo = array();
 
+    public $limited_countries = array('fr', 'de', 'gb', 'uk', 'it', 'es', 'nl');
+
     /**
      * Module constructor
      */
