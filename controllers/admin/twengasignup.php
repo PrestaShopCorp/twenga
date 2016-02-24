@@ -25,9 +25,9 @@
  * @license   http://opensource.org/licenses/afl-3.0.php Academic Free License (AFL 3.0)
  */
 
-include _PS_MODULE_DIR_ . 'twengasmartleads/classes/prestashop/admincontroller.php';
+include _PS_MODULE_DIR_ . 'twenga/classes/prestashop/admincontroller.php';
 
-class TwengaSmartLeadsSignUpController extends Twenga_Prestashop_AdminController
+class TwengaSignUpController extends Twenga_Prestashop_AdminController
 {
     public $id = 0;
 

@@ -51,10 +51,10 @@ return array(
     72007 => array('Dynamic CPC which is adjusted in real time according to its potential conversion'),
     81937 => array(
         'Since activating Smart LEADS, our campaign’s  Cost of Sales has been halved.' .
-        ' This result has convinced us of the relevancy of this algorithm and played a ' .
-        'role in our decision to invest further with Twenga.'
+        ' This result has convinced us of the efficiency of this algorithm and has ' .
+        'played a role in our decision to invest further with Twenga.'
     ),
-    81947 => array('Shani Nomber Search, Price Comparison & Facebook Manager - PriceMinister'),
+    81947 => array('Grégoire Firome, Acquisition Project Leader - PriceMinister'),
     84537 => array('Install Twenga Solutions'),
     84547 => array('Create your account'),
     84557 => array('Configure your account'),

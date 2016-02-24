@@ -55,7 +55,7 @@ return array(
         'stato diviso per due. Questo risultato ci ha convinto della pertinenza ' .
         'dell’algoritmo e ci ha incoraggiato ad investire in Twenga.'
     ),
-    81947 => array('Shani Nomber Search, Price Comparison & Facebook Manager - PriceMinister'),
+    81947 => array('Grégoire Firome, Acquisition Project Leader - PriceMinister'),
     84537 => array('Installare Twenga Solutions'),
     84547 => array('Crea il tuo account'),
     84557 => array('Configura il tuo account'),

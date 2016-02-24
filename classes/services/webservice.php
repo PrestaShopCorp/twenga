@@ -86,8 +86,7 @@ class Twenga_Services_Webservice
         CURLOPT_SSL_VERIFYHOST => false,
         CURLOPT_SSL_VERIFYPEER => false,
         CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_USERAGENT =>
-            'Mozilla/4.0(compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.0.3705; .NET CLR 1.1.4322)',
+        CURLOPT_USERAGENT => 'prestashop',
         CURLOPT_REFERER => '',
         CURLOPT_CONNECTTIMEOUT => 1,
         CURLOPT_TIMEOUT => 3,
@@ -340,6 +339,12 @@ class Twenga_Services_Webservice
 
         $response = \curl_exec($resource);
         $curlInfo = \curl_getinfo($resource);
+
+        if (false === $response) {
+            throw new Twenga_Exception(
+                'Bad curl response : ' . $curlInfo['http_code']
+            );
+        }
 
         $headers = \Tools::substr($response, 0, $curlInfo['header_size']);
         $response = trim(\Tools::substr($response, $curlInfo['header_size']-1));

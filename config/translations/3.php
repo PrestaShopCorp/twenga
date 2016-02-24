@@ -58,7 +58,7 @@ return array(
         'Kampagnen halbiert. Dieses Ergebnis hat uns die Wirksamkeit der Algorithmen ' .
         'gezeigt und uns überzeugt, weiter in Kampagnen mit Twenga zu investieren.'
     ),
-    81947 => array('Shani Nomber Search, Price Comparison & Facebook Manager - PriceMinister'),
+    81947 => array('Grégoire Firome, Acquisition Project Leader - PriceMinister'),
     84537 => array('Twenga Solutions installieren'),
     84547 => array('Ihr Konto erstellen'),
     84557 => array('Ihr Konto einrichten'),

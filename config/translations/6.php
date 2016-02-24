@@ -35,10 +35,14 @@ return array(
     43632 => array('Imię'),
     43642 => array('Nazwisko'),
     43662 => array('Adres e-mail'),
-    64067 => array(''),
-    64077 => array(''),
-    64107 => array(''),
-    64117 => array(''),
+    64067 => array('Login Twenga Solutions (Twój e-mail)'),
+    64077 => array('Hasło Twenga Solutions'),
+    64107 => array('Twój katalog zostanie zintegrowany w ciągu około 72 godzin.'),
+    64117 => array(
+        'Od momentu, kiedy Twoje produkty zaczną być widoczne, zaczniesz regularnie ' .
+        'otrzymywać kwalifikowany ruch, za który naliczona będzie opłata w modelu CPC ' .
+        '(Koszt za kliknięcie).'
+    ),
     69507 => array('Zintegruj swój sklep z Twenga'),
     69517 => array('przyciągnij nowych klientów'),
     71967 => array('Ponad 30 milionów e-klientów miesięcznie'),
@@ -54,7 +58,7 @@ return array(
         ' Ten wynik przekonał nas do działania algorytmu i&nbsp;zachęcił do ' .
         'zainwestowania więcej we współpracę z&nbsp;Twenga.'
     ),
-    81947 => array('Shani Nomber - Search, Price Comparison & Facebook Manager w PriceMinister'),
+    81947 => array('Grégoire Firome, Acquisition Project Leader w PriceMinister'),
     84537 => array('Zainstaluj Twenga Solutions'),
     84547 => array('Utwórz konto'),
     84557 => array('Skonfiguruj konto'),

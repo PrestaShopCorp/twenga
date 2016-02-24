@@ -42,7 +42,7 @@ return array(
         'Wanneer uw producten op Twenga staan ontvangt uw site een traffic flow die u ' .
         'volgens het CPC-principe (cost per click) zal worden gefactureerd.'
     ),
-    69507 => array('Indexeer uw site op Twenga'),
+    69507 => array('Indexeer je webwinkel op Twenga'),
     69517 => array('Krijg nieuwe klanten'),
     71967 => array('Maandelijks meer dan 30 miljoen online consumenten'),
     71977 => array('Verhoog uw verkoop'),
@@ -57,7 +57,7 @@ return array(
         'gehalveerd. Dit resultaat heeft ons overtuigd van de werking van het algoritme ' .
         'en ons doen besluiten om verder te investeren met Twenga.'
     ),
-    81947 => array('Shani Nomber - Search, Price Comparison & Facebook Manager - PriceMinister'),
+    81947 => array('Grégoire Firome, Acquisition Project Leader - PriceMinister'),
     84537 => array('Twenga Solutions installeren'),
     84547 => array('Maak je account aan'),
     84557 => array('Configureer je account'),

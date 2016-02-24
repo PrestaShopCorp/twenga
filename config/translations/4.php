@@ -55,7 +55,7 @@ return array(
         'relevancia de este algoritmo y ha jugado un rol importante en la decisión de ' .
         'invertir más aún con Twenga.'
     ),
-    81947 => array('Shani Nomber, Manager de Search, Price Comparison y Facebook - PriceMinister'),
+    81947 => array('Grégoire Firome, Acquisition Project Leader - PriceMinister'),
     84537 => array('Instalar Twenga Solutions'),
     84547 => array('Crea tu cuenta'),
     84557 => array('Configura tu cuenta'),

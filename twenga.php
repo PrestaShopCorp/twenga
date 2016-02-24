@@ -29,7 +29,7 @@ if (!defined('_PS_VERSION_')) {
     exit;
 }
 
-class TwengaSmartLeads extends Module
+class Twenga extends Module
 {
     /**
      * @var array
@@ -43,7 +43,7 @@ class TwengaSmartLeads extends Module
      */
     public function __construct()
     {
-        $this->name = 'twengasmartleads';
+        $this->name = 'twenga';
         $this->tab = 'market_place';
         $this->version = '3.0.0';
         $this->author = 'Twenga';
@@ -156,8 +156,8 @@ class TwengaSmartLeads extends Module
         $this->context->controller->addJS($this->getPathUri() . 'views/js/configure.js');
         $this->context->controller->addJS(Twenga_Config::get('tws.tag_manager_url'));
 
-        require_once _TWENGA_SL_MODULE_DIR_ . 'controllers/admin/twengasmartleadssignup.php';
-        $oConfigureController = new \TwengaSmartLeadsSignUpController();
+        require_once _TWENGA_SL_MODULE_DIR_ . 'controllers/admin/twengasignup.php';
+        $oConfigureController = new \TwengaSignUpController();
         return $oConfigureController->getConfigurePage();
     }
 
@@ -220,7 +220,7 @@ class TwengaSmartLeads extends Module
     {
         $tab = new Tab();
         $tab->name = array(1 => 'Acquisition et ciblage d\'audience avec le Module Twenga');
-        $tab->class_name = 'TwengaSmartLeadsSignUp';
+        $tab->class_name = 'TwengaSignUp';
         $tab->module = $this->name;
         $tab->id_parent = -1;
         $tab->active = 0;
@@ -233,7 +233,7 @@ class TwengaSmartLeads extends Module
      */
     private function uninstallModuleTab()
     {
-        if (false !== ($tab = new Tab((int)Tab::getIdFromClassName('TwengaSmartLeadsSignUp')))) {
+        if (false !== ($tab = new Tab((int)Tab::getIdFromClassName('TwengaSignUp')))) {
             return $tab->delete();
         }
         return true;

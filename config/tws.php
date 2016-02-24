@@ -35,7 +35,7 @@ return array(
     'domain' => 'https://www.twenga-solutions.com',
     'url_logo_header' => 'https://www.twenga-solutions.com/fr/landing_access',
     'prestashop' => array(
-        'class_prefix' => 'TwengaSmartLeads'
+        'class_prefix' => 'Twenga'
     ),
     'tag_manager_url' => 'https://www.twenga-solutions.com/assets/js/tagmanager/prestashop/smartleads.js',
 );
